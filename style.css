@@ -1,0 +1,98 @@
+/*
+font pro nadpisy h1
+*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:ital,wght@1,100&display=swap');
+
+/*
+font pro vše ostatní
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=EB+Garamond&family=Poppins:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+navigace, hlavička
+*/
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    font-family: 'Bodoni Moda', serif;
+}
+
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+ header nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+
+li a:hover {
+   
+    color: burlywood;
+  }
+
+  head header{
+
+   
+    
+    }
+  
+  /*
+  zde řeším body stránky atd
+  */
+  h1{
+      text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 45px;
+    letter-spacing: 5px;
+    line-height: 1.2em;
+  
+  
+
+}
+
+
+
+
+  p{text-align: center;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+  line-height: 1.2em;
+  
+  
+}
+
+h2{text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 25px;
+  letter-spacing: 5px;
+  line-height: 1.2em;
+  }
+
+
+
+body a{
+  font-family: 'Bodoni Moda', serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+  line-height: 1.2em;
+  text-decoration: none;
+  color: black;
+}
+
